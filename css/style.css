@@ -1,0 +1,103 @@
+.section-btn.active {
+  background-color: bisque; 
+  color: black;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.section-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-btn {
+  background-color: #f0f0f0; 
+  color: black;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.section-btn:hover {
+  background-color:   bisque; 
+}
+
+.luas-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0;
+  background: rgb(100, 187, 237);
+  text-align: center;
+}
+
+.luas-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.luas-segitiga-img {
+  background-image: url(https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  align-self: center;
+}
+
+.luas-jajargenjang-img {
+  background-image: url(https://www.kimiamath.com/content/images/jajar-genjang/pembuktian-luas-jajar-genjang3.jpg);
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  align-self: center;
+}
+
+
+
+.luas-form-header {
+  text-align: center;
+}
+
+.input-wrapper{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-wrapper>input {
+  width: 65%;
+}
+
+input[type="number"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.hitung {
+  background-color: #0097dd; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content>aside {
+  flex: 1;
+}

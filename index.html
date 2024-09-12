@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css\style.css">
+  
+  <title>Document</title>
+</head>
+<body>
+  <header class="main-header">
+    <h1>Welcome To Katik</h1>
+    <p>Hai, sobat selamat datang di katik</p>
+  </header>
+  <main>
+
+    <section class="section-main">
+      <button type="button" class="section-btn " id="segitiga-btn">Segitiga</button>
+      <button type="button" class="section-btn " id="jajargenjang-btn">Jajargenjang</button>
+    </section>
+
+    <section class="main-content" id="segitiga-section">
+      <aside>
+        <header >
+          <h1 class="luas-header">Hitung Luas Segitiga</h1>
+        </header>
+  
+        <article class="luas-content">
+          <div class="luas-segitiga-img"></div>
+          <p>Rumus Luas Segitiga</p>
+        </article>
+  
+        <hr/>
+  
+        <form id="luas-segitiga-form">
+          <header>
+            <h1 class="luas-form-header">Luas Segitiga</h1>
+          </header>
+  
+          <div class="input-wrapper">
+            <label for="panjang-alas">Panjang Alas</label>
+            <input id="panjang-alas" type="number">
+          </div>
+  
+          <div class="input-wrapper">
+            <label for="tinggi">Tinggi</label>
+            <input id="tinggi" type="number">
+          </div>
+  
+          <p id="luas-result">Hasil Perhitungan</p>
+  
+          <button class="hitung" type="submit">Hitung</button>
+        </form>
+      </aside>
+  
+      <aside>
+        <header>
+          <h1 class="luas-header">Keliling Segitiga</h1>
+        </header>
+  
+        <article class="luas-content">
+          <div class="luas-segitiga-img"></div>
+          <p>Rumus Keliling Segitiga</p>
+        </article>
+  
+        <hr/>
+  
+        <form id="keliling-segitiga-form">
+          <header>
+            <h1 class="luas-form-header">Hitung Keliling Segitiga</h1>
+          </header>
+  
+          <div class="input-wrapper">
+            <label for="sisi">Panjang Sisi</label>
+            <input id="sisi" type="number">
+          </div>
+  
+          <p id="keliling-result">Hasil Perhitungan</p>
+          <button class="hitung" type="submit">Hitung</button>
+  
+        </form>
+      </aside>
+    </section>
+    <section class="main-content" id="jajargenjang-section" style="display:none;">
+      <!-- Luas Jajargenjang -->
+      <aside>
+        <header >
+          <h1 class="luas-header">Hitung Luas Jajargenjang</h1>
+        </header>
+
+        <article class="luas-content">
+          <div class="luas-jajargenjang-img"></div>
+          <p>Rumus Luas Jajargenjang</p>
+        </article>
+
+        <hr/>
+
+        <form id="luas-jajargenjang-form">
+          <header>
+            <h1 class="luas-form-header">Luas Jajargenjang</h1>
+          </header>
+
+          <div class="input-wrapper">
+            <label for="alas">Panjang Alas</label>
+            <input id="alas" type="number">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="tinggi">Tinggi</label>
+            <input id="tinggi" type="number">
+          </div>
+
+          <p id="luas-result">Hasil Perhitungan</p>
+
+          <button class="hitung" type="submit">Hitung</button>
+        </form>
+      </aside>
+
+      <!-- Keliling Jajargenjang -->
+      <aside>
+        <header >
+          <h1 class="luas-header">Hitung Keliling Jajargenjang</h1>
+        </header>
+
+        <article class="luas-content">
+          <div class="luas-jajargenjang-img"></div>
+          <p>Rumus Keliling Jajargenjang</p>
+        </article>
+
+        <hr/>
+
+        <form id="keliling-jajargenjang-form">
+          <header>
+            <h1 class="keliling-form-header">Keliling Jajargenjang</h1>
+          </header>
+
+          <div class="input-wrapper">
+            <label for="sisi">Panjang Sisi</label>
+            <input id="sisi" type="number">
+          </div>
+
+          <p id="keliling-result">Hasil Perhitungan</p>
+
+          <button class="hitung" type="submit">Hitung</button>
+        </form>
+      </aside>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script> 
+</body>
+</html>
